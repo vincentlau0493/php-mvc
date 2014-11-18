@@ -1,0 +1,30 @@
+{
+  "name": "phpmvc",
+  "version": "0.1.0",
+  "description": "A low-level php mvc framework with routes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mkdirp": "*"
+  },
+  "bin": {
+    "phpmvc": "./bin/phpmvc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincentlau0493/php-mvc.git"
+  },
+  "keywords": [
+    "php",
+    "mvc",
+    "framework",
+    "route"
+  ],
+  "author": "JIAYU LIU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincentlau0493/php-mvc/issues"
+  },
+  "homepage": "https://github.com/vincentlau0493/php-mvc"
+}
