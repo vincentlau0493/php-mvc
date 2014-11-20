@@ -1,6 +1,6 @@
 {
   "name": "phpmvc",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A low-level php mvc framework with routes",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

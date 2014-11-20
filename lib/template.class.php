@@ -27,7 +27,7 @@ class Template {
 			include (ROOT . DS . 'application' . DS . 'views' . DS . 'header.php');
 		}
 
-		if (file_exists(ROOT . DS . 'application' . DS . 'views' . DS . $this->_prefix . DS . 'header.php')) {
+		if (file_exists(ROOT . DS . 'application' . DS . 'views' . DS . $this->_prefix . DS . $this->_view . '.php')) {
 			include (ROOT . DS . 'application' . DS . 'views' . DS . $this->_prefix . DS . $this->_view . '.php');     
 		} else {
 			include (ROOT . DS . 'application' . DS . 'views' . DS . $this->_view . '.php');

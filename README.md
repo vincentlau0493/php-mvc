@@ -15,48 +15,48 @@ Then you can use 'phpmvc' as command line tool to build your php project:
 
 ```sh
 $ cd {YOUR_PATH}/htdocs/
-$ phpmvc getstart
+$ phpmvc projectname
 ```
 
 Hit the enter and you will see:
 
 ```sh
-   create : /Users/user/Desktop/getstart
-   create : /Users/user/Desktop/getstart/.htaccess
-   create : /Users/user/Desktop/getstart/public
-   create : /Users/user/Desktop/getstart/public/.htaccess
-   create : /Users/user/Desktop/getstart/public/index.php
-   create : /Users/user/Desktop/getstart/public/javascripts
-   create : /Users/user/Desktop/getstart/public/images
-   create : /Users/user/Desktop/getstart/application
-   create : /Users/user/Desktop/getstart/application/routes.php
-   create : /Users/user/Desktop/getstart/public/stylesheets
-   create : /Users/user/Desktop/getstart/config
-   create : /Users/user/Desktop/getstart/config/config.php
-   create : /Users/user/Desktop/getstart/tmp
-   create : /Users/user/Desktop/getstart/lib
-   create : /Users/user/Desktop/getstart/lib/Controller.class.php
-   create : /Users/user/Desktop/getstart/lib/Model.class.php
-   create : /Users/user/Desktop/getstart/lib/Router.class.php
-   create : /Users/user/Desktop/getstart/lib/SQLQuery.class.php
-   create : /Users/user/Desktop/getstart/lib/Template.class.php
-   create : /Users/user/Desktop/getstart/lib/utility.php
-   create : /Users/user/Desktop/getstart/application/controllers
-   create : /Users/user/Desktop/getstart/application/controllers/ErrorController.php
-   create : /Users/user/Desktop/getstart/application/controllers/StaticController.php
-   create : /Users/user/Desktop/getstart/application/views
-   create : /Users/user/Desktop/getstart/application/views/404.php
-   create : /Users/user/Desktop/getstart/application/views/footer.php
-   create : /Users/user/Desktop/getstart/application/views/header.php
-   create : /Users/user/Desktop/getstart/application/views/index.php
-   create : /Users/user/Desktop/getstart/application/models
-   create : /Users/user/Desktop/getstart/application/models/ExampleModel.php
-   create : /Users/user/Desktop/getstart/tmp/logs
-   create : /Users/user/Desktop/getstart/tmp/logs/error.log
+   create : /Users/user/Desktop/projectname
+   create : /Users/user/Desktop/projectname/.htaccess
+   create : /Users/user/Desktop/projectname/public
+   create : /Users/user/Desktop/projectname/public/.htaccess
+   create : /Users/user/Desktop/projectname/public/index.php
+   create : /Users/user/Desktop/projectname/public/javascripts
+   create : /Users/user/Desktop/projectname/public/images
+   create : /Users/user/Desktop/projectname/application
+   create : /Users/user/Desktop/projectname/application/routes.php
+   create : /Users/user/Desktop/projectname/public/stylesheets
+   create : /Users/user/Desktop/projectname/config
+   create : /Users/user/Desktop/projectname/config/config.php
+   create : /Users/user/Desktop/projectname/tmp
+   create : /Users/user/Desktop/projectname/lib
+   create : /Users/user/Desktop/projectname/lib/Controller.class.php
+   create : /Users/user/Desktop/projectname/lib/Model.class.php
+   create : /Users/user/Desktop/projectname/lib/Router.class.php
+   create : /Users/user/Desktop/projectname/lib/SQLQuery.class.php
+   create : /Users/user/Desktop/projectname/lib/Template.class.php
+   create : /Users/user/Desktop/projectname/lib/utility.php
+   create : /Users/user/Desktop/projectname/application/controllers
+   create : /Users/user/Desktop/projectname/application/controllers/ErrorController.php
+   create : /Users/user/Desktop/projectname/application/controllers/StaticController.php
+   create : /Users/user/Desktop/projectname/application/views
+   create : /Users/user/Desktop/projectname/application/views/404.php
+   create : /Users/user/Desktop/projectname/application/views/footer.php
+   create : /Users/user/Desktop/projectname/application/views/header.php
+   create : /Users/user/Desktop/projectname/application/views/index.php
+   create : /Users/user/Desktop/projectname/application/models
+   create : /Users/user/Desktop/projectname/application/models/ExampleModel.php
+   create : /Users/user/Desktop/projectname/tmp/logs
+   create : /Users/user/Desktop/projectname/tmp/logs/error.log
 
 Enjoy your MVC Framework!
 ```
-Turn on your server and request 'localhost/getstart', then enjoy the framework!
+Turn on your server and request 'localhost/projectname', then enjoy the framework!
 
 
 ## Project Structure
