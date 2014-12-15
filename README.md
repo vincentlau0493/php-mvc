@@ -1,5 +1,7 @@
 #phpmvc
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vincentlau0493/php-mvc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A simple low-level php mvc framework, which is inspired by Express.js. The framework is configured by controller, model, view and route without template engine. Don't bother to learn anything new. Everything in this framework is based on php.
 
 
