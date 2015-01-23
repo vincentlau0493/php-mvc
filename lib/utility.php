@@ -56,8 +56,10 @@ function __autoload($className) {
 		require_once(ROOT . DS . 'application' . DS . 'controllers' . DS . strtolower($className) . '.php');
 	} else if (file_exists(ROOT . DS . 'application' . DS . 'models' . DS . strtolower($className) . '.php')) {
 		require_once(ROOT . DS . 'application' . DS . 'models' . DS . strtolower($className) . '.php');
+	} else if (file_exists(ROOT . DS . 'lib' . DS . 'classes' . DS . $className . '.class.php')) {
+		require_once(ROOT . DS . 'lib' . DS . 'classes' . DS . $className . '.class.php');
 	} else {
-			/* Error Generation Code Here */
+		/* Error Generation Code Here */		
 	}
 }
 
